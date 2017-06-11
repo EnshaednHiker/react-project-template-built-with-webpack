@@ -1,8 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-//need to import a root component
+import './public';
 
-ReactDOM.render(
-            //<Board />, //root component goes here
-  document.getElementById('root')
-);
+//point of this file is to import its child modules whereas public is the place to commit to the fact that it's a view layer
