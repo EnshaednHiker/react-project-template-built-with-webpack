@@ -1,0 +1,28 @@
+16:44:48.489 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+16:44:48.489 INFO - Launching a standalone Selenium Server
+2017-06-24 16:44:48.512:INFO::main: Logging initialized @249ms to org.seleniumhq.jetty9.util.log.StdErrLog
+16:44:48.565 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:44:48.565 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+16:44:48.566 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:44:48.566 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+16:44:48.567 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
+2017-06-24 16:44:48.607:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-06-24 16:44:48.642:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
+2017-06-24 16:44:48.756:INFO:osjs.AbstractConnector:main: Started ServerConnector@5f2108b5{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-06-24 16:44:48.756:INFO:osjs.Server:main: Started @494ms
+16:44:48.757 INFO - Selenium Server is up and running
+16:44:49.006 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+16:44:49.030 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=01 Init, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+16:44:49.042 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=01 Init, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 45176
+Only local connections are allowed.
+16:44:51.312 INFO - Detected dialect: OSS
+16:44:51.328 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=01 Init, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+16:44:51.354 INFO - Executing: [get: http://localhost:3000])
+16:44:51.830 INFO - Done: [get: http://localhost:3000]
+16:44:52.839 INFO - Executing: [get title])
+16:44:52.848 INFO - Done: [get title]
+16:44:52.855 INFO - Executing: [delete session: ffa99797-e1ce-49ea-be98-c7736154cce7])
+16:44:53.758 INFO - Done: [delete session: ffa99797-e1ce-49ea-be98-c7736154cce7]
